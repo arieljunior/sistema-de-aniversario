@@ -1,0 +1,7 @@
+C:\Users\Ariel\source\repos\Sistema_de_aniversario\Sistema_de_aniversario\bin\Debug\Sistema_de_aniversario.exe.config
+C:\Users\Ariel\source\repos\Sistema_de_aniversario\Sistema_de_aniversario\bin\Debug\Sistema_de_aniversario.exe
+C:\Users\Ariel\source\repos\Sistema_de_aniversario\Sistema_de_aniversario\bin\Debug\Sistema_de_aniversario.pdb
+C:\Users\Ariel\source\repos\Sistema_de_aniversario\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.csprojResolveAssemblyReference.cache
+C:\Users\Ariel\source\repos\Sistema_de_aniversario\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\source\repos\Sistema_de_aniversario\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.exe
+C:\Users\Ariel\source\repos\Sistema_de_aniversario\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.pdb

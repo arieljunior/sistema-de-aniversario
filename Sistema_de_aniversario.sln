@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema_de_aniversario", "Sistema_de_aniversario\Sistema_de_aniversario.csproj", "{5A76B6B2-9A48-495B-BBE8-DE5ED9D5F2D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A76B6B2-9A48-495B-BBE8-DE5ED9D5F2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A76B6B2-9A48-495B-BBE8-DE5ED9D5F2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A76B6B2-9A48-495B-BBE8-DE5ED9D5F2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A76B6B2-9A48-495B-BBE8-DE5ED9D5F2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BD33D6A-FBD4-469B-AAFD-6A27BF2EE761}
+	EndGlobalSection
+EndGlobal
