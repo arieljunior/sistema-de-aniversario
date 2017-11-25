@@ -8,16 +8,24 @@ namespace Sistema_de_aniversario
 {
     class PessoaController
     {
-        public List<PessoaModel> pessoas = new List<PessoaModel>();
+        public List<PessoaModel> Pessoas = new List<PessoaModel>();
 
         public void AdicionarPessoa(PessoaModel pessoa)
         {
-            pessoas.Add(pessoa);
+            Pessoas.Add(pessoa);
         }
 
-        public void PesquisarPessoa(string nome)
+        public PessoaModel PesquisarPessoa(string nome)
         {
+            foreach(var pessoa in Pessoas)
+            {
+                if (pessoa.Nome.Equals(nome))
+                {
+                    return pessoa;
+                }
+            }
 
+            return null;
         }
         
     }

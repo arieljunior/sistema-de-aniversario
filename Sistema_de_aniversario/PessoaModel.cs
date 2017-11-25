@@ -12,7 +12,7 @@ namespace Sistema_de_aniversario
         public string Sobrenome { get; }
         public string DataNasc { get; }
 
-        public PessoaModel(string nome, string dataNascimento, string sobrenome = "")
+        public PessoaModel(string nome, string dataNascimento, string sobrenome = "NÃO INFORMADO")
         {
             this.Nome = nome;
             this.Sobrenome = sobrenome;

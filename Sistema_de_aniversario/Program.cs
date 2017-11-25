@@ -15,6 +15,8 @@ namespace Sistema_de_aniversario
             
         }
 
+        PessoaController pController = new PessoaController();
+
         public void MostrarMenu()
         {
             int opcao;
@@ -33,7 +35,7 @@ namespace Sistema_de_aniversario
                 switch (opcao)
                 {
                     case 1:
-                        
+                        ViewPesquisarPessoa();
                         break;
                     case 2:
                         ViewAddPessoa();
@@ -41,7 +43,6 @@ namespace Sistema_de_aniversario
                     case 3:
                         Console.WriteLine("saindo...");
                         menu = false;
-                        Console.ReadKey();
                         break;
                 }
 
@@ -63,35 +64,58 @@ namespace Sistema_de_aniversario
             Console.Write("(Obrigatório) Data de aniversário no formato dd/mm/yyyy: ");
             string dataAniversario = Console.ReadLine();
 
-            if ((nome != null) && (dataAniversario != null))
+            if ((nome != "") && (dataAniversario != ""))
             {
-                if (sobreNome != null)
+                if (sobreNome != "")
                 {
-                    PessoaController pController = new PessoaController();
                     PessoaModel pessoa = new PessoaModel(nome, dataAniversario, sobreNome);
                     pController.AdicionarPessoa(pessoa);
                 }
                 else
                 {
-                    PessoaController pController = new PessoaController();
                     PessoaModel pessoa = new PessoaModel(nome, dataAniversario);
                     pController.AdicionarPessoa(pessoa);
                 }
+
+                Console.WriteLine("-----------------------------------");
+                Console.WriteLine("| Usuário cadastrado com sucesso |");
+                Console.WriteLine("-----------------------------------");
+            }
+            else
+            {
+                Console.WriteLine("-----------------------------------");
+                Console.WriteLine("| Usuário não cadastrado.         |");
+                Console.WriteLine("| Preencha os campos obrigatórios |");
+                Console.WriteLine("-----------------------------------");
             }
 
-            Console.WriteLine("Precione qualquer tecla para voltar");
+            Console.WriteLine("\nPrecione qualquer tecla para voltar");
             Console.ReadKey();
         }
 
         public void ViewPesquisarPessoa()
         {
             Console.Clear();
-            Console.WriteLine("----------Nova Pessoa----------");
+            Console.WriteLine("----------Pesquisar Pessoa----------");
             Console.Write("Informe o nome da pessoa cadastrada: ");
             string nome = Console.ReadLine();
 
+            PessoaModel pessoaEncontrada = pController.PesquisarPessoa(nome);
 
+            if (pessoaEncontrada != null)
+            {
+                Console.WriteLine("**Dados da pessoa encontrada**");
+                Console.WriteLine($"Nome: {pessoaEncontrada.Nome}");
+                Console.WriteLine($"Sobrenome: {pessoaEncontrada.Sobrenome}");
+                Console.WriteLine($"Data de nascimento: {pessoaEncontrada.DataNasc}");
+            }
+            else
+            {
+                Console.WriteLine("Usuário não encontrado ou não cadastrado");
+            }
 
+            Console.WriteLine("\nPrecione qualquer tecla para voltar");
+            Console.ReadKey();
         }
     }
 }
