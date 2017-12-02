@@ -5,3 +5,17 @@ C:\Users\Ariel\source\repos\Sistema_de_aniversario\Sistema_de_aniversario\obj\De
 C:\Users\Ariel\source\repos\Sistema_de_aniversario\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.csproj.CoreCompileInputs.cache
 C:\Users\Ariel\source\repos\Sistema_de_aniversario\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.exe
 C:\Users\Ariel\source\repos\Sistema_de_aniversario\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.pdb
+C:\Users\aluno\Downloads\sistema-de-aniversario-master\sistema-de-aniversario-master\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Downloads\sistema-de-aniversario-master\sistema-de-aniversario-master\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Downloads\sistema-de-aniversario-master\sistema-de-aniversario-master\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.exe
+C:\Users\aluno\Downloads\sistema-de-aniversario-master\sistema-de-aniversario-master\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.pdb
+C:\Users\aluno\Downloads\sistema-de-aniversario-master\sistema-de-aniversario-master\Sistema_de_aniversario\bin\Debug\Sistema_de_aniversario.exe.config
+C:\Users\aluno\Downloads\sistema-de-aniversario-master\sistema-de-aniversario-master\Sistema_de_aniversario\bin\Debug\Sistema_de_aniversario.exe
+C:\Users\aluno\Downloads\sistema-de-aniversario-master\sistema-de-aniversario-master\Sistema_de_aniversario\bin\Debug\Sistema_de_aniversario.pdb
+E:\sistema-de-aniversario-master\Sistema_de_aniversario\bin\Debug\Sistema_de_aniversario.exe.config
+E:\sistema-de-aniversario-master\Sistema_de_aniversario\bin\Debug\Sistema_de_aniversario.exe
+E:\sistema-de-aniversario-master\Sistema_de_aniversario\bin\Debug\Sistema_de_aniversario.pdb
+E:\sistema-de-aniversario-master\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.csprojResolveAssemblyReference.cache
+E:\sistema-de-aniversario-master\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.csproj.CoreCompileInputs.cache
+E:\sistema-de-aniversario-master\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.exe
+E:\sistema-de-aniversario-master\Sistema_de_aniversario\obj\Debug\Sistema_de_aniversario.pdb

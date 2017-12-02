@@ -8,15 +8,29 @@ namespace Sistema_de_aniversario
 {
     class PessoaModel
     {
-        public string Nome { get; }
-        public string Sobrenome { get; }
-        public string DataNasc { get; }
+        private string Nome;
+        private string Sobrenome;
+        private DateTime DataNascimento;
 
-        public PessoaModel(string nome, string dataNascimento, string sobrenome = "NÃO INFORMADO")
+        public PessoaModel(string nome, DateTime dataNascimento, string sobrenome = "NÃO INFORMADO")
         {
             this.Nome = nome;
             this.Sobrenome = sobrenome;
-            this.DataNasc = dataNascimento;
+            this.DataNascimento = dataNascimento;
+        }
+
+        public string getNome()
+        {
+            return Nome;
+        }
+
+        public string getSobrenome()
+        {
+            return Sobrenome;
+        }
+        public DateTime getDataNascimento()
+        {
+            return DataNascimento;
         }
     }
 }
